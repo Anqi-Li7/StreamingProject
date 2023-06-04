@@ -10,6 +10,8 @@ The project incorporates an Extract, Transform, Load (ETL) pipeline implemented 
 
 ### Real-Time Analysis
 The streaming data is analyzed in real-time using a **tumbling window** of 1-minute. This approach enables the calculation and display of volume and price metrics for each cryptocurrency. Users can observe market trends and performance metrics instantly.
+![Viz](Image/Viz.png)
+![Trend](Image/Trend.png)
 
 ### Performance Optimization
 The project incorporates optimization techniques such as **caching** and **partitioning** to enhance the processing of streaming data. These techniques ensure efficient and speedy data processing, allowing for real-time analysis without compromising performance.
